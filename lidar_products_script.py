@@ -1,14 +1,3 @@
-#-------------------------------------------------------------------------------
-# Name:        module1
-# Purpose:
-#
-# Author:      MLABIADH
-#
-# Created:     31/01/2020
-# Copyright:   (c) MLABIADH 2020
-# Licence:     <your licence>
-#-------------------------------------------------------------------------------
-
 import arcpy
 from arcpy import env
 from arcpy.sa import*
