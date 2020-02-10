@@ -63,6 +63,7 @@ outMinus.save("CHM")
 print ("Slope, Hillshade and CHM created")
 
 # Create the Canopy Density model (CDM).
+
    #Calculate per cell stats for ground and canopy returns
 groundStats = r'in_memory\groundStats'
 canopyStats = r'in_memory\canopyStats'
