@@ -6,12 +6,12 @@ arcpy.env.overwriteOutput = True
 
 # Set script variables
 
-inputLAS = r'\\bctsdata.bcgov\data\tko_root\GIS_WORKSPACE\MLABIADH\LIDAR\lidar-products-workflow\script\test\inputLAS'
+inputLAS = r'\\....\inputLAS'
 spatialRef = arcpy.SpatialReference(3005) # ESPG Code for NAD83 / BC Albers
 
-MainWorkspace = r'\\bctsdata.bcgov\data\tko_root\GIS_WORKSPACE\MLABIADH\LIDAR\lidar-products-workflow\script\outputs'
-#ScratchWorkspace = r'\\bctsdata.bcgov\data\tko_root\GIS_WORKSPACE\MLABIADH\LIDAR\lidar-products-workflow\script\outputs\ScratchWorkspace.gdb'
-FinalGDB = r'\\bctsdata.bcgov\data\tko_root\GIS_WORKSPACE\MLABIADH\LIDAR\lidar-products-workflow\script\outputs\FinalOutputs.gdb'
+MainWorkspace = r'\\....\outputs'
+#ScratchWorkspace = r'\\....\outputs\ScratchWorkspace.gdb'
+FinalGDB = r'\\.....\outputs\FinalOutputs.gdb'
 
 # Check if Spatial Analysis extension is available and activate it.
 
