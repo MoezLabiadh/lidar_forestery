@@ -21,14 +21,14 @@ workspace = sys.argv[2]
 env.workspace = workspace
 env.overwriteOutput = True
 
-imagery_location = r"\\fileserver3.nrscloud.bcgov\bcts\Data\TKO\Imagery"
+imagery_location = r"\\....."
 FTKL_utm_imagery_tiles = imagery_location + r"\FTKL\FTKL_Imagery_Products.gdb\FTKL_utm_imagery_tiles"
 FTBO_utm_imagery_tiles = imagery_location + r"\FTBO\FTBO_Imagery_Products.gdb\FTBO_utm_imagery_tiles"
 FTAR_utm_imagery_tiles = imagery_location + r"\FTAR\FTAR_Imagery_Products.gdb\FTAR_utm_imagery_tiles"
 FTEK_utm_imagery_tiles = imagery_location + r"\FTEK\FTEK_Imagery_Products.gdb\FTEK_utm_imagery_tiles"
 field_team_lyr = "field_team_lyr"
 
-LAZTiles = r"\\fileserver1.nrscloud.bcgov\BCTS\Data\TKO\LASZ\LAZ_tiles.shp"
+LAZTiles = r"\\....\LAZ_tiles.shp"
 LAZTiles_lyr = "LAZTiles_lyr"
 fields = ['filepath' , 'file_name']
 
